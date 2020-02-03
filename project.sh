@@ -155,8 +155,7 @@ promptGitRemoteOptions () {
         newGithubRepo
         break;;
       "No remote needed")
-        break
-        ;;
+        break;;
       *) echo "Try a valid option.";;
     esac
   done
