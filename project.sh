@@ -16,7 +16,7 @@ fi
 
 
 # Check if the folder already exists here, if so, quit
-if [ -d "$name" ]
+if [ -d "$devpath/$name" ]
 then
   echo "The folder $name already exists"
   exit 1
